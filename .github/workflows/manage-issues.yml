@@ -2,7 +2,6 @@ name: Manage Issues
 on:
   schedule:
     - cron: "0 9 * * *"
-
 jobs:
   manage-stale-issues:
     name: Manage Stale Issues
